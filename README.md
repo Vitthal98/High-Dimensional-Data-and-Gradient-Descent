@@ -3,9 +3,9 @@
 
 This project was completed in partial fulfilment of the course FOUNDATIONS OF DATA SCIENCE (CS F320) offered during Second Semester 2019-20 at BITS Pilani, Pilani Campus.
 
-The aim of this project was to analyse high dimensional data by identifying and techniques to 
+The aim of this project was to analyse high dimensional data (HDD) by identifying and implementing techniques to mitigate the problems occuring with HDD. The subsequent part of the project dealt with common issues with Gradient Descent and ways to overcome those issues.
 
-## What are Multivariate Time Series (MVTS)?
+## Curse of dimensionality
 
 In this project we first looked at various problems related to high dimensional data which include:
 #### 1. sparsity of data
@@ -19,6 +19,8 @@ The proposed solutions consist of:
 #### 3. Singular Value Decomposition (SVD). 
 
 These solutions were implemented in R and the results obtained clearly indicate their efficacy in overcoming all the problems.
+
+## Gradient Descent
 
 We then shifted our focus to Gradient Descent and realized that we face problems where __*the objective function gets stuck at a local minima for a non-convex loss function*__ or that __*GD runs slow for larger datasets*__. We also observed that the learning rate should be chosen suitably.
 
